@@ -21,6 +21,17 @@ h2{
     margin: 0;
 }
 
+h3{
+    font-size: 30px;
+    margin: 0;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0;
+}
+
 .container{
     margin: auto;
     width: 1400px;
@@ -129,18 +140,28 @@ h2{
     font-weight: 900;
 }
 
+.exclusive{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
 .exclusive_left{
     width: 560px;
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .exclusive1{
     background-image: url(../img/man.png);
+    height: 542px;
+    margin-bottom: 20px;
 }
 
 .exclusive2{
     background-image: url(../img/accessories.png);
+    height: 261px;
 }
 
 .exclusive_right{
@@ -151,8 +172,36 @@ h2{
 
 .exclusive3{
     background-image: url(../img/woman.png);
+    height: 261px;
+    margin-bottom: 20px;
 }
 
 .exclusive4{
     background-image: url(../img/kids.png);
+    height: 542px;
+}
+
+.exclusive_text{
+    margin-top: 26px;
+    background-color: white;
+    display: inline-block;
+    padding: 16px 20px;
+}
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.grey_lil_text{
+    font-size: 14px;
+    color: #9f9f9f;
 }

@@ -1,0 +1,133 @@
+body{
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    font-family: 'Lato', sans-serif;
+    height: 38px;
+    border: 1px solid #e6e6e6;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    width: 1400px;
+    border-bottom: 1px solid #ececec;          /*линия, отделяющая шапку*/
+}
+
+.main_header{
+    margin: auto;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo_header{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 27px;
+}
+    
+.logopic{                   
+    margin-right: 10px;          /*отодвинул картинку от текста в логотипе*/
+}
+
+.logotext{
+    font-weight: 300;
+}
+
+.pink_text{
+    color: #f16d7f;
+    font-weight: 900;
+    margin-left: -4px;
+}
+
+.search_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 38px;
+}
+
+.browse_button{
+    width: 87px;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    color: #222222;
+    border-radius: 3px 0px 0px 3px;        /*свойство для "закругления" краев кнопки*/
+}
+
+.search_box{
+    height: 36px;
+    width: 270px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    padding: 0px 5px;
+    margin-left: -1px;                      /*убрал наложение границ блоков друг на друга*/
+}
+
+.search_button{
+    background-color: #ffffff;
+    width: 38px;
+    margin-left: -1px; 
+    border-radius: 0px 3px 3px 0px; 
+}
+
+.account_button{
+    background-color: #f16d7f;
+    border: 3px solid #f16d7f;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    padding: 0px 10px 0px 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;             /*сброс стиля отображения списка*/
+    margin: 0;
+}
+
+.menu_list{
+     padding: 20px;
+     font-weight: 700;
+}
+
+.promo{
+    height: 614px;
+    width: 1400px;
+    background-image: url(../img/promo.png);     /*запомнить ставить две точки перед путём, иначе не работает*/
+    background-repeat: no-repeat;
+    background-position-y: -51px;
+    background-position-x: center;
+    margin: auto;                                 /*пришлось прописать повторно, иначе не вставало по центру*/
+    padding-top: 218px;
+}
+
+.promo_text{
+    margin-left: 16%;                      /*сдвиг текста*/
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+    font-weight: 900;
+}
+
+

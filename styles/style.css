@@ -55,7 +55,6 @@ h2{
 .pink_text{
     color: #f16d7f;
     font-weight: 900;
-    margin-left: -4px;
 }
 
 .search_group{
@@ -113,7 +112,7 @@ h2{
 }
 
 .promo{
-    height: 614px;
+    height: 500px;
     width: 1400px;
     background-image: url(../img/promo.png);     /*запомнить ставить две точки перед путём, иначе не работает*/
     background-repeat: no-repeat;
@@ -130,4 +129,30 @@ h2{
     font-weight: 900;
 }
 
+.exclusive_left{
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+}
 
+.exclusive1{
+    background-image: url(../img/man.png);
+}
+
+.exclusive2{
+    background-image: url(../img/accessories.png);
+}
+
+.exclusive_right{
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+}
+
+.exclusive3{
+    background-image: url(../img/woman.png);
+}
+
+.exclusive4{
+    background-image: url(../img/kids.png);
+}

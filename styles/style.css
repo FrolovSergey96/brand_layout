@@ -3,6 +3,7 @@ body{
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
+    width: 1600px;
 }
 
 button{
@@ -115,7 +116,7 @@ h4{
     border-radius: 0px 3px 3px 0px; 
 }
 
-.account_button{
+.pink_button{
     background-color: #f16d7f;
     border: 3px solid #f16d7f;
     font-size: 15px;
@@ -219,4 +220,73 @@ h4{
 .grey_lil_text{
     font-size: 14px;
     color: #9f9f9f;
+}
+
+.featured_item_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.featured_item{
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured_container{
+    padding-left: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured_text{
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 19px;
+    margin-bottom: 17px;
+    color: #222222;
+}
+
+.featured_button{
+    background-color: #f16d7f;
+    border: 3px solid #f16d7f;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding: 0px 10px 0px 10px;
+    margin-top: 19px;
+    margin-bottom: 113px;
+    width: 212px;
+    height: 48px;
+}
+
+.discount_box{
+    margin-bottom: 97px;
+    display: flex;
+}
+
+.discount_banner{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    width: 767px;
+    height: 529px;
+    color: #ffffff;
+}
+
+.banner_text{
+    padding-top: 146px;
+    padding-left: 39px;
+    font-size: 53.7px;
+    font-weight: 700;
+}
+
+.discount_info{
+    background-color: #222224;
+    height: 529px;
+    width: 373px;
+}
+
+.banner_text_small{
+    font-size: 32.2px;
 }

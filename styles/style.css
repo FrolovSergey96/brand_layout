@@ -34,17 +34,32 @@ h4{
 
 .container{
     margin: auto;
-    width: 1400px;
+    width: 1140px;
     border-bottom: 1px solid #ececec;          /*линия, отделяющая шапку*/
 }
 
 .main_header{
     margin: auto;
-    width: 800px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
+}
+
+.header_left{
+    width: 606px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_right{
+    width: 188px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo_header{
@@ -56,7 +71,7 @@ h4{
 }
     
 .logopic{                   
-    margin-right: 10px;          /*отодвинул картинку от текста в логотипе*/
+    margin-right: 13px;          /*отодвинул картинку от текста в логотипе*/
 }
 
 .logotext{

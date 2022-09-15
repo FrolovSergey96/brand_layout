@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">       <!-- подключаю шрифт Lato с помощью Google Fonts -->
-    <link rel="stylesheet" href="fonts\fontawesome\css\fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/5bf98c9127.js" crossorigin="anonymous"></script>                            <!-- подключаю Font Awesome -->
     <title>Главная страница</title>
 </head>
 <body>
@@ -18,14 +18,14 @@
                     <div class="logotext">BRAN<span class="pink_text">D</span></div>
                 </div>                
                 <div class="search_group">
-                    <button class="browse_button">Browse &#9660</button>             <!-- &# - для вставки символа в юникоде-->
-                    <input type="text" class="search_box" placeholder="Search for Item...">         <!-- placeholder - атрибут для формы, который показывает текст-подсказку -->
-                    <button class="search_button">🔍︎</button>
+                    <button class="browse_button">Browse <i class="fa-solid fa-caret-down"></i></button>            
+                    <input type="text" class="search_box" placeholder="Search for Item...">                           <!-- placeholder - атрибут для формы, который показывает текст-подсказку -->
+                    <button class="search_button"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
             </div>
             <div class="header_right">
                 <img src="img/cart.png">
-                <button class="pink_button">My account &#9660</button>
+                <button class="pink_button">My account <i class="fa-solid fa-caret-down"></i></button>
             </div>
         </div>
     </header>
@@ -142,13 +142,35 @@
         </div>
         <button class="featured_button">Browse All Product --></button>
     </div>
-    <div class="discount_box container">
-        <div class="discount_banner">
+    <div class="banner_box container">
+        <div class="banner_main">
             <div class="banner_text">
                 30% <span class="pink_text">OFFER</span> <br><span class="banner_text_small">FOR WOMAN</span> 
             </div>
         </div>
-        <div class="discount_info"></div>
+        <div class="banner_info">
+            <div class="banner_info_element">
+                <img src="img/symbol_delivery.png" alt="">
+                <div class="banner_info_textbox">
+                    <div class="banner_info_header">Free Delivery</div>
+                    <div class="banner_info_description">Worldwide delivery on all. Authorit<br>atively morph next-generation innov<br>ation with extensive models.</div>
+                </div>
+            </div>
+            <div class="banner_info_element">
+                <img src="img/symbol_discount.png" alt="">
+                <div class="banner_info_textbox">
+                    <div class="banner_info_header">Sales & discounts</div>
+                    <div class="banner_info_description">Worldwide delivery on all. Authorit<br>atively morph next-generation innov<br>ation with extensive models.</div>
+                </div>
+            </div>
+            <div class="banner_info_element">
+                <img src="img/symbol_quality.png" alt="">
+                <div class="banner_info_textbox">
+                    <div class="banner_info_header">Quality assurance</div>
+                    <div class="banner_info_description">Worldwide delivery on all. Authorit<br>atively morph next-generation innov<br>ation with extensive models.</div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>

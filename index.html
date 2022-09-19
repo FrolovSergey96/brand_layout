@@ -11,27 +11,27 @@
 </head>
 <body>
     <header>
-        <article class="header_main container">
-            <section class="header_left">
+        <article class="header_main container">                                                        <!-- объявляю два класса, container регулирует ширину -->
+            <section class="header_left">                                                              <!-- тегом section объявляю элементы внутри "основных" блоков article -->
                 <div class="logo">
                     <img src="img/logo.png" class="logopic">
-                    <h1 class="logofont">BRAN<span class="pink900">D</span></h1>
+                    <h1 class="logofont">BRAN<span class="pink900">D</span></h1>                       <!-- span внутри заголовка, чтобы поменять атрибуты части текста-->
                 </div>                
                 <div class="search_main">
-                    <button class="browse_button button_header">Browse <i class="fa-solid fa-caret-down"></i></button>            
-                    <input type="text" class="search_input" placeholder="Search for Item...">                          <!-- placeholder - атрибут для формы, который показывает текст-подсказку -->
+                    <button class="browse_button button_header">Browse <i class="fa-solid fa-caret-down"></i></button>       <!-- тегом i ставлю символы из font-awesome -->    
+                    <input type="text" class="search_input" placeholder="Search for Item...">                                <!-- placeholder - атрибут для формы, который показывает текст-подсказку -->
                     <button class="search_button button_header"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
             </section>
-            <section class="header_right">
+            <section class="header_right">                                                               <!-- поделил заголовок на несколько блоков, чтобы удобнее было распологать их относительно друг друга с помощью flex -->
                 <img src="img/cart.png">
                 <button class="pink_button button_header">My account <i class="fa-solid fa-caret-down"></i></button>
             </section>
         </article>
     </header>
     <nav>
-        <ul class="menu">                        <!-- ul - маркированный список-->
-            <li class="menu_element">HOME</li>
+        <ul class="menu">                           <!-- ul - маркированный список-->
+            <li class="menu_element">HOME</li>      <!-- li - элементы списка -->
             <li class="menu_element">MAN</li>
             <li class="menu_element">WOMAN</li>
             <li class="menu_element">KIDS</li>
@@ -41,17 +41,17 @@
             <li class="menu_element">DEALS</li>
         </ul>
     </nav>
-    <main>
-        <article class="promo_main">
-            <section class="container promo_header">
+    <main>                                             <!-- тег main для выделения основной части страницы -->
+        <section class="promo_main">                   <!-- не объявляю класс .container, чтобы ширина фона оставалась исходной и была 1600 -->
+            <div class="promo_group container">        <!-- объявляю класс .container здесь, чтобы элементы внутри блока не выходили из заданных границ -->
                 <div class="promo_textbox">
                     <h1 class="promo_font1">THE BRAND</h1>
                     <h2 class="promo_font2">OF LUXERIOUS <span class="pink900">FASHION</span></h2>
                 </div>
-            </section>
-        </article>
+            </div>
+        </section>
         <article class="exclusive_main container">
-            <section class="exclusive_left">
+            <section class="exclusive_left">            <!-- элементы в этом блоке поместил в две колонны, чтобы расположить было проще -->
                 <div class="exclusive1">
                     <div class="exclusive_text">
                         <h2 class="exclusive_font1">HOT DEAL</h2>
@@ -81,12 +81,12 @@
             </section>
         </article>
         <article class="featured_main container">
-            <section class="featured_head">
+            <section class="featured_head">                       <!-- заголовок раздела как отдельный элемент внутри раздела -->
                 <h1 class="exclusive_font2">Featured items</h1>
                 <span class="grey_little">Shop for items based on what we featured in this week</span>
             </section>
             <section class="featured_group">
-                <div class="featured_element">
+                <div class="featured_element">                     <!-- в отличие от прошлого блока в этот раз задал всем элементам один класс "featured_element" для простоты форматирования -->
                     <img src="img/featured1.png" alt="">
                     <div class="featured_container">
                         <span class="featured_text">MANGO PEOPLE T-SHIRT</span>
@@ -146,7 +146,7 @@
             <button class="featured_button">Browse All Product --></button>
         </article>
         <article class="banner_main container">
-            <section class="banner_group">
+            <section class="banner_group">                                     <!-- разделил баннер на две части, картинка слева, информационный блок справа -->
                 <div class="banner_text">
                     30% <span class="pink_regular">OFFER</span> <br><span class="banner_text_small">FOR WOMAN</span> 
                 </div>
@@ -188,7 +188,7 @@
                         <button class="feedback_non_active_button"></button>
                         <button class="feedback_active_button"></button>
                         <button class="feedback_non_active_button"></button>
-                </div>
+                    </div>
                 </div>
             </section>
             <section class="subscribe_main">
@@ -203,9 +203,9 @@
             </section>
         </article>
     </main>
-    <footer>
-        <article class="footer_top container">
-            <section class="about">
+    <footer>                                      <!-- нижняя часть страницы -->
+        <section class="footer_top container">
+            <div class="about">
                 <div class="logo">
                     <img src="img/logo.png" class="logopic">
                     <div class="logofont">BRAN<span class="pink900">D</span></div>
@@ -216,8 +216,8 @@
                 <div class="about_text">
                     Efficiently plagiatize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
                 </div>
-            </section>
-            <section class="map">
+            </div>
+            <div class="map">                               <!-- карту сайта оформил в видел трех колонн списков -->
                 <div class="map_block">
                     <h1 class="map_header">COMPANY</h1>
                     <ul class="map_list">  
@@ -248,14 +248,14 @@
                         <li class="map_element">Browse All</li>
                     </ul>
                 </div>
-            </section>
-        </article>
-        <article class="footer_bottom">
-            <section class="footer_low container">
+            </div>
+        </section>
+        <section class="footer_bottom">
+            <div class="footer_low container">
                 <div class="copyright">© 2017 Brand All Rights Reserved.</div>
                 <div class="media">
                     <div class="media-icon">
-                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-facebook-f"></i>          <!-- иконки сайтов добавляю с помощью font awesome -->
                     </div>
                     <div class="media-icon">
                         <i class="fa-brands fa-twitter"></i>
@@ -270,8 +270,8 @@
                         <i class="fa-brands fa-google-plus-g"></i>
                     </div>
                 </div>
-            </section>
-        </article>
+            </div>
+        </section>
     </footer>
 </body>
 </html>

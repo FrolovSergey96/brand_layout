@@ -126,6 +126,8 @@ header{
 .menu_element{
      padding: 20px;
      font-weight: 700;
+     color: #222222;
+     text-decoration: none;
 }
 
 .promo_main{
@@ -577,6 +579,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 122px;
 }
 
 .product_img{
@@ -716,4 +719,101 @@ header{
     line-height: 1.2;
     font-weight: 700;
     color: #ef5b70;
+}
+
+.also{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 73px;
+}
+
+.also_header{
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    margin-bottom: 72px;
+}
+
+.also_group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.also_name{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6f6e6e;
+    margin: 19px 0px 17px 0px;
+}
+
+.also_price{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f16d7f;
+    margin-bottom: 21px;
+}
+
+.checkout{                            
+    margin-top: 78px;
+    margin-bottom: 125px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_element{
+    margin-bottom: 62px;
+}
+
+.checkout_header{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.checkout_group{
+    display: flex;
+    padding: 39px 0px 0px 35px;
+
+}
+
+.checkout_left{
+    width: 549px;
+}
+
+.checkout_font1{
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+.checkout_font2{
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.radio_group{
+    display: flex;
+
+}
+
+.checkout_radio{
+    width: 14px;
+    height: 14px;
+    background-color: #ffffff;
+    border: 2px solid #555555;
 }

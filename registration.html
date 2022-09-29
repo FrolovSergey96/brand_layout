@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">      
-    <script src="https://kit.fontawesome.com/5bf98c9127.js" crossorigin="anonymous"></script>                           
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5bf98c9127.js" crossorigin="anonymous"></script>
     <title>Главная страница</title>
 </head>
 <body>
     <header>
-        <article class="header_main container">                                                       
-            <section class="header_left">                                                              
+        <article class="header_main container">
+            <section class="header_left">
                 <div class="logo">
                     <img src="img/logo.png" class="logopic">
-                    <h1 class="logofont">BRAN<span class="pink900">D</span></h1>                      
+                    <h1 class="logofont">BRAN<span class="pink900">D</span></h1>
                 </div>
                 <div class="search_main">
                     <button class="browse_button button_header">Browse <i class="fa-solid fa-caret-down"></i></button>
@@ -23,7 +23,7 @@
                     <button class="search_button button_header"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
             </section>
-            <section class="header_right">   
+            <section class="header_right">
                 <img src="img/cart.png">
                 <button class="pink_button button_header">My account <i class="fa-solid fa-caret-down"></i></button>
             </section>
@@ -41,11 +41,20 @@
             <li class="menu_element">DEALS</li>
         </ul>
     </nav>
-    <main>
-        <form action="" method="post">
-            <input type="text">
-            <input type="text" name="" id="">
-            
-        </form>
-    </main>                                        
+    <div class="container">
+        <form class="registration" action="form.php" method="post">
+            <label for="fio" class="reg_label">Input your name</label>
+            <input type="text" name="fio" placeholder="Фамилия Имя Отчество">
+            <label for="login" class="reg_label">Input your login</label>
+            <input type="text" name="login" id="" placeholder="Логин">
+            <label for="password" class="reg_label">Input your password</label>
+            <input type="text" name="password" id="" placeholder="Пароль">
+            <label for="email" class="reg_label">Input your e-mail</label>
+            <input type="email" name="email" id="" placeholder="example@example.com">
+            <label for="phone" class="reg_label">Input your phone</label>
+            <input type="tel" name="phone" id="" placeholder="+7(999)999-99-99">     
+            <input type="submit" name="" value="input">
+            </form>
+    </div>
 </body>
+</html>

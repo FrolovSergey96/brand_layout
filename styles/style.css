@@ -888,6 +888,18 @@ header{
     color: #ffffff;
 }
 
+.reg_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg_header{
+    font-size: 25px;
+    margin: 46px 0px 26px 0px;
+    
+}
+
 .reg_form{
     width: 400px;
     display: flex;
@@ -901,6 +913,24 @@ header{
 }
 
 .reg_label{
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 4px;
 }
 
+.reg_input{
+    height: 36px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    padding: 0px 5px;               
+}
+
+.reg_button{
+    margin-top: 42px;
+    background-color: #f16d7f;
+    border: 3px solid #f16d7f;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    padding: 8px 15px;
+}

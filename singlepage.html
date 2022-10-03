@@ -13,10 +13,10 @@
     <header>
         <article class="header_main container">
             <section class="header_left">
-                <div class="logo">
+                <a href="index.html" class="logo">                                   <!-- блок лого теперь ссылка на основную страницу -->
                     <img src="img/logo.png" class="logopic">
-                    <h1 class="logofont">BRAN<span class="pink900">D</span></h1>
-                </div>                
+                    <h1 class="logofont">BRAN<span class="pink900">D</span></h1>                       
+                </a>
                 <div class="search_main">
                     <button class="browse_button button_header">Browse <i class="fa-solid fa-caret-down"></i></button>           
                     <input type="text" class="search_input" placeholder="Search for Item...">                               
@@ -25,7 +25,9 @@
             </section>
             <section class="header_right">
                 <img src="img/cart.png">
-                <button class="pink_button button_header">My account <i class="fa-solid fa-caret-down"></i></button>
+                <a href="registration.html">
+                    <button class="pink_button button_header">My account <i class="fa-solid fa-caret-down"></i></button>
+                </a>
             </section>
         </article>
     </header>
@@ -42,17 +44,21 @@
         </ul>
     </nav>
     <main>
-        <section class="path_main container">
-            <div class="path_header">
-                New Arrivals
-            </div>
-            <div class="path">
-                Home / Men / <span class="pink_regular">New Arrivals</span> 
+        <section class="path_main">
+            <div class="path_group container">
+                <div class="path_header">
+                    New Arrivals
+                </div>
+                <div class="path">
+                    Home / Men / <span class="pink_regular">New Arrivals</span> 
+                </div>
             </div>
         </section>
-        <article class="product_view container">
-            <img src="img/new_arrivals/moschino_cheap_and_chin.png" class="product_img">
-            <section class="product_description">
+        <article class="product_group">
+            <section class="product_view">
+                <img src="img/new_arrivals/moschino_cheap_and_chin.png" class="product_img">
+            </section>
+            <section class="product_description container">
                 <h2 class="product_type">WOMEN COLLECTION</h2>
                 <div class="product_block"></div>
                 <h1 class="product_name">Moschino Cheap And Chic</h1>

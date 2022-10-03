@@ -13,10 +13,10 @@
     <header>
         <article class="header_main container">                                                        <!-- объявляю два класса, container регулирует ширину -->
             <section class="header_left">                                                              <!-- тегом section объявляю элементы внутри "основных" блоков article -->
-                <div class="logo">
+                <a href="index.html" class="logo">
                     <img src="img/logo.png" class="logopic">
                     <h1 class="logofont">BRAN<span class="pink900">D</span></h1>                       <!-- span внутри заголовка, чтобы поменять атрибуты части текста-->
-                </div>                
+                </a>
                 <div class="search_main">
                     <button class="browse_button button_header">Browse <i class="fa-solid fa-caret-down"></i></button>       <!-- тегом i ставлю символы из font-awesome -->    
                     <input type="text" class="search_input" placeholder="Search for Item...">                                <!-- placeholder - атрибут для формы, который показывает текст-подсказку -->
@@ -25,7 +25,9 @@
             </section>
             <section class="header_right">                                                               <!-- поделил заголовок на несколько блоков, чтобы удобнее было распологать их относительно друг друга с помощью flex -->
                 <img src="img/cart.png">
-                <button class="pink_button button_header">My account <i class="fa-solid fa-caret-down"></i></button>
+                <a href="registration.html">
+                    <button class="pink_button button_header">My account <i class="fa-solid fa-caret-down"></i></button>
+                </a>
             </section>
         </article>
     </header>

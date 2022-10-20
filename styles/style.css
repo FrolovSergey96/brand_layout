@@ -935,3 +935,21 @@ header{
     font-weight: 400;
     padding: 8px 15px;
 }
+
+/*стили странички product*/
+.prdsrc_main{
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.side{
+    background-color: grey;
+    width: 243px;
+    margin-right: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 263px);
+    gap: 30px;
+}
